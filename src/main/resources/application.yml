@@ -1,0 +1,17 @@
+keycloak:
+  auth-server-url: http://localhost:8090/auth
+  realm: orders
+  resource: backend
+  credentials:
+    secret: 7c372915-3b09-4717-9a6a-3f577425e496
+spring:
+  profiles:
+    active: dev
+
+database:
+  host: postgres
+  port: 5432
+  username: postgres
+  password: postgres
+  database: orders
+
